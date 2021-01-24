@@ -1,38 +1,202 @@
-.App {
-  text-align: center;
-}
+@font-face {
+  font-family: 'muliregular';
+  src: url('./fonts/muli-webfont.woff2') format('woff2'),
+       url('./fonts/muli-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+@font-face {
+  font-family: 'mulibold';
+  src: url('./fonts/muli-bold-webfont.woff2') format('woff2'),
+       url('./fonts/muli-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+@font-face {
+  font-family: 'mulisemibold';
+  src: url('./fonts/muli-semibold-webfont.woff2') format('woff2'),
+       url('./fonts/muli-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+*{
+  font-family: 'Raleway', sans-serif;
+}
+:root {
+  --black: #000;
+  --white: #ffffff;
+  --brown: #d29b48;
+  --grey:  #474848;
+}
+ul{
+  padding: 0;
+  margin:0;
+}
+li{list-style: none;}
+a{
+display: inline-block;
+cursor: pointer;
+}
+a:hover{
+  text-decoration: none !important;
+}
+.banner-dropdown li a.rotate.open i {
+  transform: rotate(90deg);
+}
+a.main-nav.open i {
+  transform: rotate(90deg);
+}
+.navbar{padding: 0;}
+img{max-width: 100%;}
+a:hover{text-decoration: none;}
+header#header_section {box-shadow: 0 2px 24px 6px rgba(0, 0, 0, 0.1);}
+.header_wrapper {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-bottom: 10px;
+}
+a.menu-bar {
+  display: inline-block;
+  font-size: 0;
+  width: 30px;
+}
+.navigation_bar ul{
+display: flex;
+align-items: center;
+}
+a.menu-bar span.bars {
+  display: inline-block;
+  background-color: #ff6600;
+  width: 80%;
+  line-height: 1;
+  border-radius: 0;
+  height: 3px;
+  margin: 0 0 3px;
+}
+span.bars:last-child{margin:0;}
+.navbar-toggler.collapsed .bar1 {transform: rotate(0);}
+.navbar-toggler .bar1 {
+  transform: rotate(45deg);
+  transform-origin: 9% 10%;
+  transition: .5s;
+}
+.navbar-toggler.collapsed .bar2 {opacity: 1;}
+.navbar-toggler .bar2 {opacity: 0; transition: .5s;}
+.navbar-toggler.collapsed .bar3 {transform: rotate(0);}
+.navbar-toggler .bar3 {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+  transition: .5s;
+}
+.navigation_bar ul li {padding: 0 17px;}
+.navigation_bar ul li a,.navigation_bar ul span {
+  font-size: 10pt;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
-.App-link {
-  color: #61dafb;
+.lets_btn a {
+    background-color: #d29b49;
+    padding: 10px 16px;
+    border-radius: 25px;
+    color: #fff !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navigation_bar ul li a:hover{color: #ff6600;}
+
+/* --banner-section--- */
+.banner_section{
+  background-image: url('./images/images/banner-bg.jpg');
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 730px;
+  
 }
+.banner_content{
+max-width: 810px;
+margin: 0 auto;  
+}
+.banner_content h2 {
+  font-size: 30pt;
+  color: var(--white);
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.banner_btns a{
+  font-size: 14pt;
+  font-family: 'muliregular';
+  padding: 16px  0;
+  width: 255px;
+  text-transform: uppercase;
+  margin: 0 8px;
+}
+.banner_btns a:first-child {
+  background: var(--black);
+  color: var(--white);
+}
+.banner_btns a:last-child{
+  background: var(--white);
+  color: var(--black);
+}
+.banner_content p{
+  color: var(--white);
+  font-size: 14pt;
+}
+.banner_btns {
+  padding-top: 34px;
+}
+/* ----services-section---- */
+.services_title{
+text-transform: uppercase;
+color: var(--brown);
+font-size: 14pt;
+padding-top: 15px;
+padding-bottom: 75px;
+text-align: center;
+}
+.services_section{
+  position: relative;
+}
+.services_section .services_rectangle {
+  position: absolute;
+  right: 0;
+  top:-37%;
+}
+.seriveces_items h5 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.seriveces_items p{
+  font-size: 11pt;
+  color: var(--grey);
+  line-height: 2;
+  font-weight: 500;
+}
+.seriveces_items > div {
+  min-height: 125px;
+}
+@media(max-width:991px){
+.header_wrapper {
+  position: relative;
+}
+
+#collapsibleNavbar {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 5;
+  background-color:#fff;
+  box-shadow: 0 12px 18px 0
+  rgba(0,0,0,0.1);
+}
+.navigation_bar ul{
+display: block;
+}
+}
+
+
