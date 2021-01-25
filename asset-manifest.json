@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ebuilderz/static/css/main.1d9d5560.chunk.css",
+    "main.js": "/ebuilderz/static/js/main.69852d8d.chunk.js",
+    "main.js.map": "/ebuilderz/static/js/main.69852d8d.chunk.js.map",
+    "runtime-main.js": "/ebuilderz/static/js/runtime-main.2863859a.js",
+    "runtime-main.js.map": "/ebuilderz/static/js/runtime-main.2863859a.js.map",
+    "static/css/2.5ba7ee44.chunk.css": "/ebuilderz/static/css/2.5ba7ee44.chunk.css",
+    "static/js/2.a44f36f6.chunk.js": "/ebuilderz/static/js/2.a44f36f6.chunk.js",
+    "static/js/2.a44f36f6.chunk.js.map": "/ebuilderz/static/js/2.a44f36f6.chunk.js.map",
+    "static/js/3.0e29de6f.chunk.js": "/ebuilderz/static/js/3.0e29de6f.chunk.js",
+    "static/js/3.0e29de6f.chunk.js.map": "/ebuilderz/static/js/3.0e29de6f.chunk.js.map",
+    "index.html": "/ebuilderz/index.html",
+    "static/css/2.5ba7ee44.chunk.css.map": "/ebuilderz/static/css/2.5ba7ee44.chunk.css.map",
+    "static/css/main.1d9d5560.chunk.css.map": "/ebuilderz/static/css/main.1d9d5560.chunk.css.map",
+    "static/js/2.a44f36f6.chunk.js.LICENSE.txt": "/ebuilderz/static/js/2.a44f36f6.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ebuilderz/static/media/muli-webfont.e2b9b5b6.woff2",
+    "static/media/footer_logo_03.cf65caa8.png": "/ebuilderz/static/media/footer_logo_03.cf65caa8.png",
+    "static/media/owner-photo02_03.89e48e4f.png": "/ebuilderz/static/media/owner-photo02_03.89e48e4f.png",
+    "static/media/slick-theme.css": "/ebuilderz/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2863859a.js",
+    "static/css/2.5ba7ee44.chunk.css",
+    "static/js/2.a44f36f6.chunk.js",
+    "static/css/main.1d9d5560.chunk.css",
+    "static/js/main.69852d8d.chunk.js"
+  ]
+}
