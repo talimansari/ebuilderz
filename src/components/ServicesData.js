@@ -1,7 +1,9 @@
 import icon01 from "../images/images/services-icon01_10.png";
 import icon02 from "../images/images/services-icon02_12.png";
 import icon03 from "../images/images/services-icon03_09.png";
-import { RiAddCircleFill } from "react-icons/ri";
+import { IoAdd } from "react-icons/io5";
+import douts from "../images/images/services-douts_21.png";
+
 const ServicesData = [
     {
         
@@ -35,41 +37,83 @@ const ServicesData = [
 const List = [
     {
         listItem:"GRAPHIC DESIGN",
-        icon: <RiAddCircleFill/>
+        icon: <IoAdd/>,
+        douts
     },
     {
-        listItem:"ECOMMERCE DEVELOPMENT"
+        listItem:"ECOMMERCE DEVELOPMENT",
+        icon: <IoAdd/>,
+        douts
     },
     {
-        listItem:"DIGITAL MARKETING"
+        listItem:"DIGITAL MARKETING",
+        icon: <IoAdd/>,
+        douts
     },
     {
-        listItem:"BRANDING & LOGO"
+        listItem:"BRANDING & LOGO",
+        icon: <IoAdd/>,
+        douts
     },
     {
-        listItem:"PHP DEVELOPMENT"
+        listItem:"PHP DEVELOPMENT",
+        icon: <IoAdd/>,
+        douts
+        
     },
     {
-        listItem:"WHITE LEVEL SEO SERVICES"
+        listItem:"WHITE LEVEL SEO SERVICES",
+        icon: <IoAdd/>,
+        douts
     },
     {
-        listItem:"WEBSITE DESIGN"
+        listItem:"WEBSITE DESIGN",
+        icon: <IoAdd/>,
+        douts
     },
     {
-        listItem:"WORDPRESS DEVELOPMENT"
+        listItem:"WORDPRESS DEVELOPMENT",
+        icon: <IoAdd/>,
+        douts
     },
     {
-        listItem:"PPC ADVERTISING"
+        listItem:"PPC ADVERTISING",
+        icon: <IoAdd/>,
+        douts
     },
     {
-        listItem:"UX /UI DESIGN"
+        listItem:"UX /UI DESIGN",
+        icon: <IoAdd/>,
+        douts
     },
     {
-        listItem:"MAINTENANCE & UPDATES"
+        listItem:"MAINTENANCE & UPDATES",
+        icon: <IoAdd/>,
+        douts
     },
     {
-        listItem:"SOCIAL MEDIA MARKETING"
+        listItem:"SOCIAL MEDIA MARKETING",
+        icon: <IoAdd/>,
+        douts
     }
 ]
+const Facts = [
+{
+    counting:"200+",
+    countCaption:"Launched projects" 
+},
+{
+    counting:"250+",
+    countCaption:"reviews and ratings" 
+},
+{
+    counting:"25000+",
+    countCaption:"code line this year" 
+},
+{
+    counting:"9900+",
+    countCaption:"coffe cups this year" 
+}
+]
 export default ServicesData;
-export  {List};
+export  {List,Facts};
